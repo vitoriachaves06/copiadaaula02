@@ -1,0 +1,93 @@
+body{
+    margin: 0px;
+
+}
+
+nav{
+    background-color: aqua;
+    height:60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+ nav a{ 
+     color: white;
+     text-decoration: none;
+     font-weight: bolder;
+     font-size: 16pt; 
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     
+ }
+   
+
+
+nav a:nth-child(1){
+    color: black;
+
+}
+
+nav a:hover{
+    color: blue;
+    font-size: 18pt;
+
+
+}
+       
+
+header{
+    
+    width: 100%;
+    height: 500px;
+    background-image: url(https://media.mnn.com/assets/images/2012/05/145439804.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    
+    
+
+
+    }
+    header h1{
+        margin-left: 40px;
+        color: white;
+        font-family: 'Courier New', Courier, monospace;
+
+    }
+     section{
+         width:400px;
+         height:200px;
+         background-color: red;
+         justify-content: center;
+     }
+         section div{
+            border:2px solid aquamarine;
+            border: 10px solid green;
+            width:200px;
+            height: 100%;
+            background-color: magenta;
+            display:flex;
+            flex-direction: column;
+            justify-content: space-around;
+        
+        }
+        section div input::placeholder{
+           background-color: lightgray;
+            font-size: 10pt;
+     }
+      section div input:focus{
+          background-color: yellow;
+      }
+      section div button{
+          border: none;
+          background-color: aquamarine;
+          color: white;
+          cursor: pointer;
+      }
+
+        
+        
+    }
+
